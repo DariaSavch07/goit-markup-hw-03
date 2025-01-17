@@ -88,7 +88,6 @@ a {
 }
 
 .nav-link {
-    gap: 40px 
     display: block;
 font-weight: 500;
 font-size: 16px;
@@ -99,15 +98,13 @@ padding: 24px;
 }
 
 .contacts-list {
+    gap: 40px;
     padding: 24px 0;
     display: flex;
-    align-items: center;
-    gap: 40px;
 }
 
 
 .contacts {
-    padding: 24px 0;
     font-style: normal;
     margin-left: auto;
 }
@@ -264,9 +261,8 @@ flex-wrap: wrap;
 }
 
 .main-section-on-photo {
-    display: block;
     height: 260px;
-    display: flex;
+    display: block;
     margin: 0 auto;
 }
 
@@ -320,7 +316,6 @@ display: flex;
 
 .section-photo {
     display: block;
-    display: flex;
     width: 360px;
     height: 300px;
 }
