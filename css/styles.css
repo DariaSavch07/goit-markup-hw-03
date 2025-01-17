@@ -46,9 +46,6 @@ a {
 /* header */
 
  .header {
-    margin: 0;
-    padding: 0 15px;
-    width: 1158px;
     border-bottom: 1px solid #e7e9fc
 
  }
@@ -64,10 +61,7 @@ a {
  }
 
 .nav-list {
-    padding: 24px 0;
     display: flex;
-    align-items: center;
-    gap: 40px;
 }
 
 
@@ -117,7 +111,7 @@ padding: 24px;
 }
 
 .contacts-link {
-    display: block;
+    display: flex;
     padding: 24px 0;
 font-size: 16px;
 line-height: 1.5;
@@ -141,7 +135,6 @@ color: #434455;
 .section-button {
     font-family: "Roboto", sans-serif;
     min-width: 169px;
-    min-width: 169px;
     border: none;
     font-weight: 500;
     font-size: 16px;
@@ -156,8 +149,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     }
 
     .main-button {
-
-        display: block;
+        display: flex;
         margin: auto;
     }
     
@@ -167,7 +159,6 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     }
 
 .title{
-    padding: 188px 0;
     margin: 0 auto;
     height: 600px;
     background-color:#2e2f42;
@@ -175,7 +166,6 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .div-main-title {
-    padding: 188px 0;
     display:block;
     margin: auto;
 }
@@ -196,12 +186,10 @@ color: #fff;
 /* section description*/
 
 .main-section-list{
-    padding: 120px 0;
     gap: 24px;
     padding: 120px 0;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .main-section-item {
@@ -241,7 +229,6 @@ flex-basis: 264px;
 }
 
 .section-itime{
-    padding: 120px 0;
 background-color: #FFFFFF;
 }
 
@@ -250,9 +237,8 @@ background-color: #FFFFFF;
 
  .people {
     padding: 120px 0;
-    margin: auto;
-    display: block;
-    justify-content: center;
+    margin: 0 auto;
+    display: flex;
     max-width: 1440px;
     height: 732px;
     background-color: #f4f4fd; ;
@@ -262,15 +248,13 @@ background-color: #FFFFFF;
 .section-title-people {
     display: flex;
 margin-bottom: 72px;
-    padding-top: 120px;
+
 }
 
 .section-list {
 gap:24px;
-margin: 0 auto;
 display: flex;
 flex-wrap: wrap;
-justify-content: center;
 }
 
 .section-itime {
@@ -278,13 +262,9 @@ justify-content: center;
 }
 
 .main-section-on-photo {
-    width: calc((100% - 72px) / 4);
     height: 260px;
-}
-
-.main-section-on-photo {
-    display: block;
-margin: 0 auto;
+    display: flex;
+    margin: 0 auto;
 }
 
 .section-people-title {
@@ -292,13 +272,9 @@ margin: 0 auto;
 padding-top: 32px;
     margin: 0 auto;
 display: flex;
-margin-bottom: 8px
 }
 
 .section-text {
-    text-align: center;
-    padding-top: 8px;
-    padding-bottom: 32px;
     margin: 0 auto;
     display: flex;
 }
@@ -325,7 +301,6 @@ margin-bottom: 8px
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     max-width: 1128px;
     box-sizing: border-box;
 }
@@ -341,7 +316,7 @@ margin-bottom: 8px
 }
 
 .section-photo {
-    display: block;
+    display: flex;
     width: 360px;
     height: 300px;
 }
@@ -361,8 +336,6 @@ margin-bottom: 8px
 /* footer */
 
 .footer {
-    margin-bottom: 16px;
-    padding: 100px 0;
     height: 312px;
     background-color: #2e2f42;
     
@@ -380,7 +353,6 @@ margin-bottom: 8px
     margin: 0 auto;
     padding: 0 15px;
     padding-top: 100px;
-    flex-direction: column;
 } 
 
 
