@@ -46,6 +46,7 @@ a {
 /* header */
 
  .header {
+    width: 1158px;
     padding: 0 15px;
     width: 1158px;
     border-bottom: 1px solid #e7e9fc
@@ -92,6 +93,7 @@ a {
 }
 
 .nav-link {
+    padding: 24px 0;
     display: block;
 font-weight: 500;
 font-size: 16px;
@@ -154,6 +156,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     }
 
     .main-button {
+
         display: block;
         margin: auto;
     }
@@ -171,6 +174,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .div-main-title {
+    padding: 188px 0;
     display:block;
     margin: auto;
 }
@@ -235,6 +239,7 @@ flex-basis: 264px;
 }
 
 .section-itime{
+    padding: 120px 0;
 background-color: #FFFFFF;
 }
 
