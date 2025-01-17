@@ -33,7 +33,7 @@ a {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-}
+
 
 /* common */
 
@@ -46,7 +46,7 @@ a {
 /* header */
 
  .header {
-    padding: 24px 0;
+    padding: 0 15px;
     width: 1158px;
     border-bottom: 1px solid #e7e9fc
 
@@ -83,7 +83,7 @@ a {
 }
 
 .header-logo {
-    padding: 15px 0;
+    padding: 24px 0;
     margin-right: 76px;
 }
 
@@ -135,13 +135,8 @@ color: #434455;
 
 /* section title*/
 
-.container {
-    padding: 188px 0
-    margin: 0 auto;
-}
-
-
 .section-button {
+    padding: 188px 0;
     font-family: "Roboto", sans-serif;
     min-width: 169px;
     min-width: 169px;
@@ -196,16 +191,15 @@ color: #fff;
 /* section description*/
 
 .main-section-list{
+    gap: 24px;
+    padding: 120px 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .main-section-item {
-    gap: 24px;
-    padding: 120px 0;
-margin-top: 120px;
-margin-bottom: 120px;
+    width: calc((100% - 72px) / 4);
     max-width: 264px;
 }
 
@@ -248,6 +242,7 @@ background-color: #FFFFFF;
 
 
  .people {
+    padding: 120px 0;
     margin: auto;
     display: block;
     padding: 0 15px;
@@ -259,11 +254,13 @@ background-color: #FFFFFF;
 
 
 .section-title-people {
-padding-bottom: 72px;
+    display: flex;
+margin-bottom: 72px;
     padding-top: 120px;
 }
 
 .section-list {
+    border-radius: 0px 0px 4px 4px;
 gap:24px;
 margin: 0 auto;
 display: flex;
@@ -272,6 +269,7 @@ justify-content: center;
 }
 
 .main-section-on-photo {
+    width: calc((100% - 72px) / 4);
     width: 264px;
     height: 260px;
 }
