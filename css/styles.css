@@ -51,18 +51,18 @@ a {
  }
 
  .header-container {
+    gap: 40px;
     width: 1158px;
     display: flex;
  }
 
  .header-nav {
-    gap: 40px;
     display: flex;
     align-items: center;
  }
 
 .nav-list {
-    padding: 24px 0;
+    gap: 40px;
     display: flex;
 }
 
@@ -101,7 +101,6 @@ padding: 24px;
 
 .contacts-list {
     gap: 40px;
-    padding: 24px 0;
     display: flex;
 }
 
