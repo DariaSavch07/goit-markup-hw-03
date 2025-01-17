@@ -46,6 +46,7 @@ a {
 /* header */
 
  .header {
+    margin: 0;
     padding: 0 15px;
     width: 1158px;
     border-bottom: 1px solid #e7e9fc
@@ -53,7 +54,6 @@ a {
  }
 
  .header-container {
-    margin: 0 auto;
     width: 1158px;
     display: flex;
  }
@@ -64,6 +64,7 @@ a {
  }
 
 .nav-list {
+    padding: 24px 0;
     display: flex;
     align-items: center;
     gap: 40px;
@@ -138,7 +139,6 @@ color: #434455;
 /* section title*/
 
 .section-button {
-    padding: 188px 0;
     font-family: "Roboto", sans-serif;
     min-width: 169px;
     min-width: 169px;
@@ -167,6 +167,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     }
 
 .title{
+    padding: 188px 0;
     margin: 0 auto;
     height: 600px;
     background-color:#2e2f42;
