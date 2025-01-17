@@ -264,6 +264,7 @@ justify-content: center;
 }
 
 .main-section-on-photo {
+    display: flex;
     padding: 0 15px;
 margin: 0 auto;
 }
