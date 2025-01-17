@@ -32,7 +32,7 @@ a {
 /* header */
 
  .header {
-    padding: 24px 0
+    padding: 24px 0;
     width: 1158px;
     border-bottom: 1px solid #e7e9fc
 
@@ -194,7 +194,7 @@ color: #fff;
 
 .main-section-item {
     gap: 24px;
-    padding: 0 15px;
+    padding: 120px 0;
 margin-top: 120px;
 margin-bottom: 120px;
     max-width: 264px;
