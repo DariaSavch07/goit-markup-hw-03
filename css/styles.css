@@ -358,9 +358,12 @@ display: flex;
     color: #f4f4fd;
 }
 
-.footer-logo {
+.logo-logo {
     margin-bottom: 16px;
     display: inline-block;
+}
+
+.footer-logo {
     display: flex;
     margin: 0 auto;
     padding: 0 15px;
