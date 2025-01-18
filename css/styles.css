@@ -345,13 +345,13 @@ display: flex;
 /* footer */
 
 .footer {
+    padding: 100px 0;
     height: 312px;
     background-color: #2e2f42;
     
 }
 
 .footer-container {
-    padding: 100px 0;
     display: inline-block;
     margin-bottom: 16px;
 }
