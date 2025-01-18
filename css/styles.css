@@ -351,10 +351,6 @@ display: flex;
     
 }
 
-.footer-container {
-    display: inline-block;
-    margin-bottom: 16px;
-}
 
 .footer-text {
     max-width: 264px;
@@ -363,6 +359,8 @@ display: flex;
 }
 
 .footer-logo {
+    margin-bottom: 16px;
+    display: inline-block;
     display: flex;
     margin: 0 auto;
     padding: 0 15px;
