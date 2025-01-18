@@ -351,6 +351,10 @@ display: flex;
     
 }
 
+.logo-part{
+    margin-bottom: 16px;
+    display: inline-block;
+}
 
 .footer-text {
     max-width: 264px;
@@ -358,10 +362,7 @@ display: flex;
     color: #f4f4fd;
 }
 
-.logo-logo {
-    margin-bottom: 16px;
-    display: inline-block;
-}
+
 
 .footer-logo {
     display: flex;
