@@ -288,8 +288,7 @@ display: flex;
 
 /* section apps*/
 
-.apps {
-    width: calc((100% - 48px) / 3); 
+.apps { 
     padding: 120px 0 120px 0
 }
 
@@ -301,6 +300,7 @@ display: flex;
 }
 
 .section-text-portfolio { 
+    width: calc((100% - 48px) / 3);
      border: 1px solid #e7e9fc;
     row-gap: 48px;
     column-gap: 24px;
@@ -323,13 +323,13 @@ display: flex;
 }
 
 .section-photo {
+    border-top: none;
     display: block;
     width: 360px;
     height: 300px;
 }
 
 .title-portfolio {
-    border-top: none;
     margin-bottom: 8px;
     padding-top: 32px;
 }
