@@ -160,7 +160,6 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
 .title{
     padding: 24px 0;
-    margin: 0 auto;
     height: 600px;
     background-color:#2e2f42;
 
@@ -277,7 +276,6 @@ flex-wrap: wrap;
     margin-bottom: 8px;
     text-align: center;
 padding-top: 32px;
-    margin: 0 auto;
 display: flex;
 }
 
@@ -351,6 +349,7 @@ display: flex;
 }
 
 .footer-text {
+    margin-bottom: 8px;
     max-width: 264px;
     padding-top: 16px;
     color: #f4f4fd;
@@ -359,7 +358,6 @@ display: flex;
 
 
 .footer-logo {
-    margin-bottom: 8px;
     display: inline-block;
     padding: 0 15px;
     padding-top: 100px;
