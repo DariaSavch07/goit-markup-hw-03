@@ -300,7 +300,7 @@ display: flex;
 }
 
 .section-text-portfolio { 
-    border: 1px solid #e7e9fc;
+    width: calc((100% - 48px) / 3);
     flex-wrap:wrap;
     row-gap: 48px;
     column-gap: 24px;
@@ -313,7 +313,7 @@ display: flex;
 }
 
 .section-itime-portfolio {
-    width: calc((100% - 48px) / 3);
+    border: 1px solid #e7e9fc;
     border-top: none;
 }
 
