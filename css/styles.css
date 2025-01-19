@@ -304,7 +304,7 @@ display: flex;
     row-gap: 48px;
     column-gap: 24px;
     
-    display: flex
+    display: flex;
     max-width: 1128px;
 }
 
