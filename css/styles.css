@@ -51,7 +51,6 @@ a {
  }
 
  .header-container {
-    gap: 40px;
     width: 1158px;
     display: flex;
  }
@@ -62,6 +61,7 @@ a {
  }
 
 .nav-list {
+    gap: 40px;
     display: flex;
 }
 
@@ -89,7 +89,7 @@ a {
 }
 
 .nav-link {
-    padding: 24px;
+    padding: 24px 0;
     display: block;
 font-weight: 500;
 font-size: 16px;
@@ -159,6 +159,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     }
 
 .title{
+    padding: 24px 0;
     margin: 0 auto;
     height: 600px;
     background-color:#2e2f42;
@@ -166,7 +167,6 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .div-main-title {
-    padding: 188px 0;
     display:block;
     margin: auto;
 }
@@ -186,6 +186,10 @@ color: #fff;
 
 .description {
     padding: 120px 0;
+}
+
+.main-section-title {
+    margin-bottom: 8px;
 }
 
 .main-section-list{
@@ -293,7 +297,6 @@ display: flex;
 .section-title-portfolio {
     margin-bottom: 72px;
     display: flex;
-    margin: 0 auto;
     padding-top: 120px;
     justify-content: center;
 }
@@ -303,7 +306,6 @@ display: flex;
     row-gap: 48px;
     column-gap: 24px;
     flex-wrap: wrap;
-    gap: 24px;
     margin: 0 auto;
     display: flex;
     max-width: 1128px;
@@ -357,8 +359,8 @@ display: flex;
 
 
 .footer-logo {
-    display: flex;
-    margin: 0 auto;
+    margin-bottom: 8px;
+    display: inline-block;
     padding: 0 15px;
     padding-top: 100px;
 } 
