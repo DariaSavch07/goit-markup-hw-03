@@ -51,8 +51,8 @@ a {
  }
 
  .header-container {
-    width: 1158px;
     display: flex;
+    align-items: center;
  }
 
  .header-nav {
@@ -105,13 +105,13 @@ color: #2e2f42;
 
 
 .contacts {
-    padding: 24px;
     font-style: normal;
     margin-left: auto;
 }
 
 .contacts-link {
-    display: flex;
+    display: block;
+    padding: 24px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -177,6 +177,7 @@ font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
+padding-bottom: 48px;
 text-align: center;
 color: #fff;
 }
@@ -194,7 +195,6 @@ color: #fff;
 .main-section-list{
     gap: 24px;
     display: flex;
-    align-items: center;
 }
 
 .main-section-item {
@@ -236,22 +236,16 @@ background-color: #FFFFFF;
 /* section people */
 
 .section-people {
-    display: flex;
     padding: 32px 0;
 }
 
  .people {
     padding: 120px 0;
-    margin: 0 auto;
-    display: flex;
-    max-width: 1440px;
-    height: 732px;
     background-color: #f4f4fd; ;
 }
 
 
 .section-title-people {
-    display: flex;
 margin-bottom: 72px;
 
 }
@@ -259,10 +253,11 @@ margin-bottom: 72px;
 .section-list {
 gap:24px;
 display: flex;
-flex-wrap: wrap;
 }
 
 .section-itime {
+    background-color: #fff;
+    width: calc((100% - 72)/4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -275,14 +270,10 @@ flex-wrap: wrap;
 .section-people-title {
     margin-bottom: 8px;
     text-align: center;
-padding-top: 32px;
-display: flex;
 }
 
 .section-text {
     text-align:center;
-    margin: 0 auto;
-    display: flex;
 }
 
 
@@ -294,9 +285,6 @@ display: flex;
 
 .section-title-portfolio {
     margin-bottom: 72px;
-    display: flex;
-    padding-top: 120px;
-    justify-content: center;
 }
 
 .section-text-portfolio { 
@@ -304,7 +292,6 @@ display: flex;
     row-gap: 48px;
     column-gap: 24px;
     display: flex;
-    max-width: 1128px;
 }
 
 .portfolio {
@@ -325,12 +312,6 @@ display: flex;
 
 .title-portfolio {
     margin-bottom: 8px;
-    padding-top: 32px;
-}
-
-.text-portfolio {
-    padding-top: 8px;
-    padding-bottom: 32px;
 }
 
 
@@ -339,15 +320,12 @@ display: flex;
 
 .footer {
     padding: 100px 0;
-    height: 312px;
     background-color: #2e2f42;
     
 }
 
 .footer-text {
-    margin-bottom: 8px;
     max-width: 264px;
-    padding-top: 16px;
     color: #f4f4fd;
 }
 
@@ -356,8 +334,6 @@ display: flex;
 .footer-logo {
     margin-bottom: 16px;
     display: inline-block;
-    padding: 0 15px;
-    padding-top: 100px;
 } 
 
 
